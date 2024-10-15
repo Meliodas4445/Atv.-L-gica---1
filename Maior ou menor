@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+    inteiro a,b
+    leia (a,b)
+    se(a>b)
+    escreva(a, " é o maior")
+    senao escreva(b, " é o maior")
+  }
+}
