@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    inteiro a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10
+    escreva("Digite um número:")
+    leia(a)
+    a1=a*1
+    a2=a*2
+    a3=a*3
+    a4=a*4
+    a5=a*5
+    a6=a*6
+    a7=a*7
+    a8=a*8
+    a9=a*9
+    a10=a*10
+    escreva(a," X 1=",a1,  "\n")
+    escreva(a," X 2=",a2,  "\n")
+    escreva(a," X 3=",a3,  "\n")
+    escreva(a," X 4=",a4,  "\n")
+    escreva(a," X 5=",a5,  "\n")
+    escreva(a," X 6=",a6,  "\n")
+    escreva(a," X 7=",a7,  "\n")
+    escreva(a," X 8=",a8,  "\n")
+    escreva(a," X 9=",a9,  "\n")
+    escreva(a," X 10=",a10,  "\n")
+  }
+}
