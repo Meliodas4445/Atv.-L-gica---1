@@ -1,0 +1,8 @@
+programa {
+  funcao inicio() {
+    inteiro a,b,c, soma
+    leia(a,b,c)
+    soma=(a+b+c)/3
+    escreva(soma, " é a média")
+  }
+}
