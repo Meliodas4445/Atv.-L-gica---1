@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+    inteiro a
+    leia(a)
+    se(a%2==0)
+    escreva("É par")
+    senao escreva("É ímpar")
+  }
+}
