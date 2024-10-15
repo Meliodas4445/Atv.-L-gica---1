@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    inteiro hora
+    escreva("Digite um número: ")
+    leia(hora)
+    se(hora<12)
+      escreva("Bom dia")
+   senao
+   escreva("Boa  tarde")
+    
+  }
+}
