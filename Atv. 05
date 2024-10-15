@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    escreva ("Hello,world",  "\n")
+    inteiro a,b,c
+    leia(a,b)
+    c=a+b
+  escreva(c)
+  
+  }
+}
