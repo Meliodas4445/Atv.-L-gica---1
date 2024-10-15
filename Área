@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+    inteiro a,b,area
+    b=3
+    leia(a)
+    area=(b^2)
+    escreva("Área=",area)
+  }
+}
