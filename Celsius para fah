@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real cel,fah
+    cadeia resposta
+     faca{
+      escreva("Digite a  temperatura em Celsius°: ")
+     leia(cel)
+     fah=(9*cel)/5 + 32
+     escreva("\nA temperatura em fahrenheit é: ",fah,"\n")
+     escreva("Deseja repetir o processo? (s para sim/n para não): ")
+     leia(resposta)
+     } enquanto (resposta== 'S' ou resposta == 's')
+     escreva("Programa finalizado")
+  }
+}
