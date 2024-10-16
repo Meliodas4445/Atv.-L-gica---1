@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro a,b,mdc
+
+    escreva("Digite o primeiro número: ")
+    leia(a)
+    escreva("Digite po segundo número: ")
+    leia(b)
+
+    enquanto(b != 0){
+      mdc=a %b 
+      b=mdc
+    }
+    escreva("O mdc é igual a ",a,"\n")
+  }
+}
