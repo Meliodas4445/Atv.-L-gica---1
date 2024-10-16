@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real base,result
+    inteiro exp,i 
+    escreva("Digite a base: \n")
+    
+    leia(base)
+    escreva("Digite o expoente:  \n")
+    leia(exp)
+    result=1
+    para(i=1;i<=exp;i++){
+      result=result*base
+    }
+    escreva(base," elevado a ",exp," é: ",result,"\n")
+  }
+}
